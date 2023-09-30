@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #ff9900;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .button {
+            background-color: #ff9900;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #ff6600;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .red-text {
+            color: red;
+        }
+        @keyframes border-animation {
+            0% {
+                border-color: #ff007f;
+            }
+            33% {
+                border-color: #007fff;
+            }
+            66% {
+                border-color: #ffffff;
+            }
+            100% {
+                border-color: #ff007f;
+            }
+        }
+        .border-changing {
+            animation: border-animation 5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>--PrimeHUB--</h1>
+        <ul>
+            <li>Prime Video</li>
+            <li>Prime Gaming</li>
+            <li>Amazon Reading Prime Video</li>
+            <li>Frete grátis em qualquer compra na Amazon</li>
+            <li><span class="red-text">R$ 5</span> por mês para o Prime Video</li>
+        </ul>
+        <a href="https://wa.me/559991513283?text=Olá! Estou interessado em adquirir o combo prime video por 5 r$." class="button border-changing">Clique para adquirir</a>
+        <p>© 2023 Supers</p>
+    </div>
+</body>
+</html>
